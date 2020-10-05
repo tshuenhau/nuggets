@@ -1,3 +1,5 @@
-import nuggets
+import nuggetsv2
 
-nuggets.getQuotesByAuthor("William Shakespeare")
+quotes = nuggetsv2.getQuotesByAuthor("Shakespeare", 175,3)
+for quote in quotes:
+    print(quote[0])
