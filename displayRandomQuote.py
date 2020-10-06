@@ -1,0 +1,3 @@
+import nuggets
+
+nuggets.getRandomQuote()

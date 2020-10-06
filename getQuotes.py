@@ -1,5 +1,7 @@
-import nuggetsv2
+import nuggets
 
-quotes = nuggetsv2.getQuotesByAuthor("Shakespeare", 175,3)
-for quote in quotes:
-    print(quote[0])
+authorsList = ["Shakespeare", "Descartes", "Kierkegaard", "Dostoyevsky", "Joseph Campbell", "Vladimir Nabokov", "Machiavelli", "Sigmund Freud"]
+#authorsList = ["Shakespeare"]
+
+nuggets.getAllQuotes(authorsList,175)
+
